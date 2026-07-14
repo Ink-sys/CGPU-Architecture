@@ -27,7 +27,7 @@ The **Central & Graphical Processing Unit (CGPU)** is a proposed architecture de
 ---
 
 ## 3. High-Scale Intelligence Acceleration
-*   **Elastic Tensor Integration:** Enables shared physical registers, allowing direct pointer passing to eliminate manual `cudaMemcpy` operations.
+*   **Elastic Tensor Integration:** Enables shared memory space via hardware cache coherency, allowing direct pointer passing to eliminate manual `cudaMemcpy` operations.
 *   **Massive Model Support:** Designed for trillion-parameter workloads, reducing memory starvation and interconnect bottlenecks.
 
 ---
