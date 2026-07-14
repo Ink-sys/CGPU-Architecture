@@ -22,7 +22,8 @@ The **Central & Graphical Processing Unit (CGPU)** is a proposed architecture de
 *   **Physical Framework:** Uses chiplet-based, silicon interposer integration via silver micro-bumps to minimize signaling distance.
 *   **Segmented Caches:** Features completely isolated physical cache blocks for CPU and GPU, removing bus contention.
 *   **Coherency Engine:** Utilizes a hardwired, directory-based controller for real-time data consistency across caches without performance loss.
-*   **Active Cooling:** Integrates embedded vapor chambers and high-velocity fan arrays to mitigate high thermal density.
+* **Active Cooling:** Integrates dual-zone vapor chambers, phase-change metallic interface materials (PCM-TIM) for transient buffering, and automated high-velocity fan arrays to mitigate high point-source thermal density.
+
 
 ---
 
